@@ -1,0 +1,296 @@
+body{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, li, p, h1, h2, h3, body, html{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: -5px 5px 10px -10px #2d3748;
+}
+
+header .kiri, header .kanan{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header .kiri{
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+header .kanan{
+    margin-left: auto;
+}
+header a{
+    padding: 5px 20px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+header a.sign-in{
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+header a.sign-in:hover{
+    border: 1px solid #000;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+header a.join{
+    background: rgb(17, 54, 78);
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+header a.join:hover{
+    background: white;
+    color: rgb(17, 54, 78);
+    border-radius: 20px;
+}
+header li:first-child a{
+    padding: 10px 0 0 0;
+}
+
+.font-putih{
+    color: white;
+}
+.biru{
+    background: rgb(159, 200, 228);
+}
+.biru-2{
+    background: rgb(17, 54, 78);
+}
+.orange{
+    background: rgb(255, 153, 0);
+}
+.content-home{
+    max-width: 1440px;
+    text-align: center;
+}
+.base .list .desc p{
+    margin-bottom: 20px;
+}
+.base .list .desc a{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.base .list .desc a:hover{
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.content-home-atas{
+    padding: 30px 0;
+}
+.content-home .note{
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.base{
+    display: flex;
+    margin: 20px 0 0;
+}
+.base .list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.base .list .image img{
+    width: 100%;
+    object-fit: cover;
+}
+.base .list .desc{
+    padding: 30px;
+}
+.base .list button{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+.base .list button.btn-putih{
+    border: 1px solid white;
+    color: white;
+}
+.base h1, .base h2{
+    padding: 0 100px;
+    line-height: 60px;
+}
+.base p{
+    font-size: 16px;
+}
+.base .list .more{
+    height: 520px;
+}
+.base .list .more.left{
+    margin-right: 10px;
+}
+.base .list .more.right{
+    margin-left: 10px;
+}
+.base .list .more .image{
+    margin-bottom: 20px;
+}
+.base .list .more p{
+    margin-bottom: 20px;
+}
+.base .list .more a{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+footer{
+    border-top: 1px solid #666;
+    padding: 30px 0
+}
+footer .footer-l2{
+    width: 1250px;
+    margin: auto;
+}
+footer .sitemap{
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 20px;
+}
+footer .sitemap .list h3{
+    margin-bottom: 20px;
+}
+footer .sitemap .list ul li{
+    display: block;
+}
+footer .sitemap .list ul li a{
+    display: block;
+    padding: 4px 0;
+    color: #666;
+}
+footer .kopirek{
+    padding: 25px 0 0;
+    color: #666;
+    text-align: center;
+}
+
+
+.container-loginform{
+    background-color: rgb(17, 54, 78);
+    margin: 80 auto 30;
+    margin-bottom: 80px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 540px;
+}
+.container-loginform h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.container-loginform a{
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+    color: rgb(170, 164, 164);
+}
+.form-control input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+.form-control input:focus, .form-control input:valid{
+    outline: 0;
+    border-bottom-color: lightblue;
+}
+.form-control label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:active{
+    transform: scale(0.99);
+}
+.text{
+    margin-top: 30px;
+    color: white;
+}
+
+.container-registerform{
+    background-color: rgb(17, 54, 78);
+    margin: 80 auto 30;
+    margin-bottom: 80px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 540px;
+}
+.container-registerform h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.container-registerform a{
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+
+.container-createform{
+    background-color: rgb(17, 54, 78);
+    margin: 80 auto 30;
+    margin-bottom: 80px;
+    padding: 20px 60px;
+    max-width: 100%;
+}
+.container-createform h1{
+    text-align: left;
+    margin-bottom: 30px;
+    color: white;
+}
+.container-createform .btn{
+    text-align: right;
+    margin-bottom: 20px;
+    width: fit-content;
+}
